@@ -1,2 +1,2 @@
-#set($subject = "$device.name: offline")
-$device.name offline at $dateTool.format("YYYY-MM-dd HH:mm:ss", $event.eventTime, $locale, $timezone)
+#set($subject = "$device.name: desconectado")
+[$device.name] desconectado em $dateTool.format("dd/MM/YYYY HH:mm:ss", $event.eventTime, $locale, $timezone)

@@ -1,11 +1,11 @@
-#set($subject = "$device.name: text message received")
+#set($subject = "$device.name: mensagem de texto recebida")
 <!DOCTYPE html>
 <html>
 <body>
-Device: $device.name<br>
-Message: $event.getString("message")<br>
-Time: $dateTool.format("YYYY-MM-dd HH:mm:ss", $event.eventTime, $locale, $timezone)<br>
-<br>
-<a href="$webUrl/settings/notifications?token=$token">Unsubscribe</a>
+Dispositivo: $device.name<br>
+Mensagem: $event.getString("message")<br>
+Hora: $dateTool.format("dd/MM/YYYY HH:mm:ss", $event.eventTime, $locale, $timezone)<br>
+<!-- <br>
+<a href="$webUrl/settings/notifications?token=$token">Unsubscribe</a> -->
 </body>
 </html>

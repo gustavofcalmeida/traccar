@@ -1,7 +1,7 @@
-#set($subject = "Test message")
+#set($subject = "Mensagem de teste")
 <!DOCTYPE html>
 <html>
 <body>
-Test message
+Mensagem de teste
 </body>
 </html>

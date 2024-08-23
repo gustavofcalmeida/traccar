@@ -1,2 +1,2 @@
-#set($subject = "$device.name: has entered geofence")
-$device.name has entered geofence $geofence.name at $dateTool.format("YYYY-MM-dd HH:mm:ss", $event.eventTime, $locale, $timezone)
+#set($subject = "$device.name: entrou na cerca virtual")
+[$device.name] entrou na cerca virtual "$geofence.name" em $dateTool.format("dd/MM/YYYY HH:mm:ss", $event.eventTime, $locale, $timezone)
