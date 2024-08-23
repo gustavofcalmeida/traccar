@@ -1,0 +1,1 @@
+"C:\path\to\java\bin\java.exe" -jar .\target\tracker-server.jar debug.xml
