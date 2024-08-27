@@ -26,7 +26,18 @@
 
     <entry key='atrack.custom'>true</entry>
     <entry key='intellitrac.port'>6037</entry>
+
+    <entry key='server.statistics'>localhost</entry>
+
+	<entry key='mail.smtp.host'>smtp.gmail.com</entry>
+	<entry key='mail.smtp.port'>587</entry>
+	<entry key='mail.smtp.starttls.enable'>true</entry>
+	<entry key='mail.smtp.auth'>true</entry>
+	<entry key='mail.smtp.username'>@gmail.com</entry>
+	<entry key='mail.smtp.password'></entry>
 	
-    <entry key='server.statistics'></entry>
+ 	<entry key='notificator.types'>mail,web,telegram</entry>
+	<entry key='notificator.telegram.key'></entry>
+	<entry key='notificator.telegram.chatId'></entry>
 
 </properties>
