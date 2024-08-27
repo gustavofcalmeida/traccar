@@ -1,7 +1,7 @@
-#set($subject = "Device expiration reminder")
+#set($subject = "Lembrete de expiração de dispositivo")
 <!DOCTYPE html>
 <html>
 <body>
-Your device $device.name will expire on $dateTool.format("YYYY-MM-dd", $expiration, $locale, $timezone).
+Seu dispositivo $device.name vai expirar em $dateTool.format("dd/MM/YYYY", $expiration, $locale, $timezone).
 </body>
 </html>
