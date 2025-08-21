@@ -1,8 +1,8 @@
-#set($subject = "Device expiration")
+#set($subject = "Expiração de dispositivo")
 #set($digest = "Device $device.name expired")
 <!DOCTYPE html>
 <html>
 <body>
-Your device $device.name has expired.
+Seu dispositivo $device.name expirou.
 </body>
 </html>

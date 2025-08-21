@@ -1,8 +1,8 @@
-#set($subject = "Account expiration reminder")
+#set($subject = "Lembrete de expiração de conta")
 #set($digest = "Account expires on $dateTool.format('yyyy-MM-dd', $expiration, $locale, $timezone)")
 <!DOCTYPE html>
 <html>
 <body>
-Your user account will expire on $dateTool.format('yyyy-MM-dd', $expiration, $locale, $timezone).
+Sua conta de usuário vai expirar em $dateTool.format('dd/MM/yyyy', $expiration, $locale, $timezone).
 </body>
 </html>
